@@ -3,13 +3,15 @@ module.exports = {
   purge: [
     './public/index.html',
      './public/*.js',
+     './public/.{html,js}',
   ],
   darkMode: false, // or 'media' or 'class'
   theme: {
-    fontFamily: {
-      'primary': ['Teko', 'sans-serif'],
+    extend: {
+      fontFamily: {
+        'primary': ['Teko', 'sans-serif'],
+      },
     },
-    extend: {},
   },
   variants: {
     extend: {},
