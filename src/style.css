@@ -16,24 +16,8 @@
 .bottom-slash {
   transform:translateX(-12px) skewX(-45deg);
   margin-top:-4px
-}
+} 
 .active-link::after{
-  content:'';
-  display: inline-block;
-  opacity: 0;
-  margin-left:8px;
-  margin-bottom: 2px;
-  border-radius: 50%;
-  width: 8px;
-  height: 8px;
-  background: red;
-  transition: opacity .4s ease-in-out;
-}
-.active-link:hover::after{
-  opacity: 1;
- }
- 
-.active-link.current-link::after{
   content:'';
   display: block;
   opacity: 1;
