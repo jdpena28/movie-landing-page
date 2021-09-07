@@ -8,7 +8,7 @@ function unselectItems() {
 
 function selectItem(item) {
   unselectItems();
-  item.classList.add('active-link','text');
+  item.classList.add('active-link','text-white');
 }
 
 function onItemClick(event) {
@@ -16,4 +16,5 @@ function onItemClick(event) {
 }
 
 for (var i = 0; i < items.length; i++) {  
-  items[i].addEventListener('click', onItemClick);g
+  items[i].addEventListener('click', onItemClick);
+}
